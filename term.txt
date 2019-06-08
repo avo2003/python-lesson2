@@ -1,0 +1,201 @@
+Last login: Wed May 29 17:41:45 on ttys000
+lab1915m:~ user$ python3 snake.py
+shoghakat
+lab1915m:~ user$ vim snake.py
+lab1915m:~ user$ python3 snake.py
+  File "snake.py", line 2
+    def__ init(self, name):
+             ^
+SyntaxError: invalid syntax
+lab1915m:~ user$ vim snake.py
+lab1915m:~ user$ python3 snake.py
+Shoghakat
+lab1915m:~ user$ python3 snake.py
+python
+Shoghakat
+lab1915m:~ user$ vim example.txt
+lab1915m:~ user$ python3
+Python 3.6.8 (v3.6.8:3c6b436a57, Dec 24 2018, 02:10:22) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> s = open(example.txt)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'example' is not defined
+>>> s = open("example.txt")
+>>> s.read()
+'hello.\nthis is a text file \nbte.\n'
+>>> s.read()
+''
+>>> s = open("example.txt")
+>>> s.read()
+'hello.\nthis is a text file \nbye.\n'
+>>> print(s)
+<_io.TextIOWrapper name='example.txt' mode='r' encoding='UTF-8'>
+>>> print(s.read)
+<built-in method read of _io.TextIOWrapper object at 0x1029f9990>
+>>> s = open("example.txt")
+>>> s.read()
+'hello.\nthis is a text file \nbye.\n'
+>>> exit()
+lab1915m:~ user$ vim writefile.txt
+lab1915m:~ user$ python3
+Python 3.6.8 (v3.6.8:3c6b436a57, Dec 24 2018, 02:10:22) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = ('writefile.txt','w')
+>>> print ('This is line 1.',file=f)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'write'
+>>> f = open ('writefile.txt','w')
+>>> print ('This is line 1.',file=f)
+>>> print ('This is line 2.',file=f)
+>>> print('This is line 1.',file=f)
+>>> exit()
+lab1915m:~ user$ f = open ('writefile.txt','w')
+-bash: syntax error near unexpected token `('
+lab1915m:~ user$ f = open ('writefile.txt','w')
+-bash: syntax error near unexpected token `('
+lab1915m:~ user$ from bs4 import beutifulSoup
+from: can't read /var/mail/bs4
+lab1915m:~ user$ from bs4 import BeutifulSoup
+from: can't read /var/mail/bs4
+lab1915m:~ user$ from bs4 import beautifulSoup
+from: can't read /var/mail/bs4
+lab1915m:~ user$ from bs4 import beautifulSoup
+from: can't read /var/mail/bs4
+lab1915m:~ user$ sudo easy_install beautifulsoup4
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+lab1915m:~ user$ kjhdsfh
+-bash: kjhdsfh: command not found
+lab1915m:~ user$ clean
+-bash: clean: command not found
+lab1915m:~ user$ clear
+
+lab1915m:~ user$ history
+    1  cd /Users/user/
+    2  du -sh *
+    3  cd D
+    4  cd Desktop/
+    5  rm -rf *
+    6  cd ..
+    7  du -sh *
+    8  cd Library/
+    9  du -sh *
+   10  rm -rf Caches/*
+   11  du -sh *
+   12  du -sh
+   13  cd ..
+   14  du -sh
+   15  cd ..
+   16  pwd
+   17  du -sh user/
+   18  open -a "Google Chrome" --args --make-default-browser
+   19  open -a "Google Chrome" --args --make-default-browser
+   20  sleep 1
+   21  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "REPLACE INTO access VALUES('kTCCServiceAccessibility','com.apple.loginwindow',0,1,1,NULL,NULL);" 
+   22  osascript -e 'tell application "System Events" to tell process "CoreServicesUIAgent" to tell window 1 to click button 1' >/dev/null 2>&1
+   23  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "delete from access where client='com.apple.loginwindow';"
+   24  open -a "Google Chrome" --args --make-default-browser
+   25  sleep 1
+   26  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "REPLACE INTO access VALUES('kTCCServiceAccessibility','com.apple.loginwindow',0,1,1,NULL,NULL);" 
+   27  osascript -e 'tell application "System Events" to tell process "CoreServicesUIAgent" to tell window 1 to click button 1' >/dev/null 2>&1
+   28  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "delete from access where client='com.apple.loginwindow';"
+   29  du -sh *
+   30  cd Library/
+   31  du -sh *
+   32  cd Application\ Support/
+   33  du -sh *
+   34  cd Google/
+   35  du -sh *
+   36  rm -rf *
+   37  cd ..
+   38  du -sh *
+   39  cd ..
+   40  du -sh *
+   41  rm -rf Caches/*
+   42  du -sh *
+   43  du -sh
+   44  cd ..
+   45  du -sh *
+   46  cd ..
+   47  du -sh *
+   48  cat /Library/OpenDirectory/Scripts/Script.bash 
+   49  dockutil --remove all
+   50  dockutil --add /Applications/Chrome.app 
+   51  dockutil --add /Applications/launchpad.app
+   52  cd Desktop/
+   53  ls -lah
+   54  cd ..
+   55  ls -lah
+   56  cd user/
+   57  du -sh *
+   58  cd Library/
+   59  du -sh *
+   60  rm -rf Caches/*
+   61  du -sh
+   62  du -sh *
+   63  cd ..
+   64  du -sh
+   65  du -sh *
+   66  python3 hello.py
+   67  vim hello.py
+   68  python3 hello.py
+   69  python3 hello.py
+   70  vim hello.py
+   71  python3 hello.py
+   72  vim main_program.py
+   73  python3 main_hello.py
+   74  python3 main_program.py
+   75  vim main_program.py
+   76  python3 main_program.py
+   77  vim main_program.py
+   78  python3 main_program.py
+   79  vim hello.py
+   80  python3 main_program.py
+   81  vim main_program.py
+   82  python3 main_program.py
+   83  vim main_program.py
+   84  vim main_program.py
+   85  python.py
+   86  vim new.py
+   87  python3 new.py
+   88  phthon3
+   89  python3
+   90  python3
+   91  python3
+   92  vim snake.py
+   93  python3 snake.py
+   94  vim snake.py
+   95  python3 snake.py
+   96  vim snake.py
+   97  python3 snake.py
+   98  vim snake.py
+   99  python3 snake.py
+  100  vim snake.py
+  101  python3 snake.py
+  102  vim snake.py
+  103  python3 snake.py
+  104  python3 snake.py
+  105  vim example.txt
+  106  python3
+  107  vim writefile.txt
+  108  python3
+  109  f = open ('writefile.txt','w')
+  110  f = open ('writefile.txt','w')
+  111  from bs4 import beutifulSoup
+  112  from bs4 import BeutifulSoup
+  113  from bs4 import beautifulSoup
+  114  from bs4 import beautifulSoup
+  115  sudo easy_install beautifulsoup4
+  116  kjhdsfh
+  117  clean
+  118  clear
+  119  history
+lab1915m:~ user$ 
